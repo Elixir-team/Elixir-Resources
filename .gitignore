@@ -1,0 +1,94 @@
+# Elixir-EN-app .gitignore
+# This file covers common files in the root workspace
+
+############################
+# OS Files
+############################
+
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.AppleDouble
+.LSOverride
+.Spotlight-V100
+.Trashes
+Icon
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+############################
+# IDE
+############################
+
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*.swm
+
+############################
+# Logs
+############################
+
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+############################
+# Temporary files
+############################
+
+*.tmp
+*.temp
+tmp/
+temp/
+
+############################
+# Backup files
+############################
+
+*.backup
+*.bak
+*.orig
+
+############################
+# Documentation (temporary)
+############################
+
+*_TEMP.md
+*_OLD.md
+*_BACKUP.md
+
+############################
+# Environment & Secrets
+############################
+
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*-key.json
+*-adminsdk-*.json
+
+############################
+# Test credentials
+############################
+
+tests/.env
+tests/credentials.json
